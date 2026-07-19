@@ -8,6 +8,7 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ### Añadido
 
+- `docs/adr/0001-arquitectura-inicial-de-la-plataforma.md`: **ADR-0001 (Aceptado)** — stack full-stack en Next.js (TypeScript), PostgreSQL gestionado, autenticación delegada (OAuth) y hosting gestionado; incluye modelo de datos educativo de alto nivel (Estudiante, Nivel, Proyecto, Inscripción/Progreso, Evidencia). *(Sprint 0.4)*
 - `.github/workflows/ci.yml`: pipeline de CI en GitHub Actions (lint de Markdown y verificación de documentación obligatoria) en cada PR/push a `main` o `develop`. *(Sprint 0.3)*
 - `.github/pull_request_template.md`: plantilla de Pull Request con checklist alineado a `CLAUDE.md`. *(Sprint 0.3)*
 - `docs/adr/template.md`: plantilla de Architecture Decision Record. *(Sprint 0.3)*
@@ -34,3 +35,7 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 - Creado el repositorio remoto público [`devrochy/ai-engineering-academy`](https://github.com/devrochy/ai-engineering-academy) en GitHub. *(Sprint 0.3)*
 - Publicadas las ramas `main` y `develop`; `main` configurada como rama por defecto. *(Sprint 0.3)*
 - Aplicada protección de rama en `main`: requiere que los checks de CI (`Lint Markdown`, `Verificar documentación obligatoria`) pasen antes de mergear, y prohíbe force-push y borrado directo. *(Sprint 0.3)*
+
+### Cambiado (Sprint 0.4)
+
+- `BACKLOG.md`: ítem 5 marcado como `Hecho`; ítem 9 redefinido como sucesor de `ADR-0001` (diseño técnico detallado del MVP); añadida la sección "Sprint 0.4 — Arquitectura inicial".

@@ -12,7 +12,7 @@ Estados: `Pendiente` · `En diseño` · `Aprobado` · `En progreso` · `Hecho`
 | 2 | Definir README del proyecto | Hecho |
 | 3 | Definir roadmap de alto nivel (`ROADMAP.md`) | Hecho |
 | 4 | Inicializar `BACKLOG.md` y `CHANGELOG.md` | Hecho |
-| 5 | Como Tech Lead, quiero un primer ADR que documente las decisiones de arquitectura de la plataforma (stack, hosting, modelo de datos educativo), para tener una base técnica aprobada antes de diseñar el MVP | Pendiente |
+| 5 | Como Tech Lead, quiero un primer ADR que documente las decisiones de arquitectura de la plataforma (stack, hosting, modelo de datos educativo), para tener una base técnica aprobada antes de diseñar el MVP | Hecho |
 
 ### Sprint 0.2 — Diseño de producto
 
@@ -32,6 +32,12 @@ Estados: `Pendiente` · `En diseño` · `Aprobado` · `En progreso` · `Hecho`
 | 24 | Crear plantilla de Pull Request y plantilla de ADR | Hecho |
 | 25 | Inicializar repositorio remoto en GitHub y ramas `main`/`develop` | Hecho |
 
+### Sprint 0.4 — Arquitectura inicial
+
+| # | Historia / Tarea | Estado |
+|---|---|---|
+| 26 | Redactar y aprobar `ADR-0001: Arquitectura inicial de la plataforma` (stack, hosting, modelo de datos educativo) | Hecho |
+
 ## Fase 1 — Diseño del roadmap educativo
 
 | # | Historia / Tarea | Estado |
@@ -47,7 +53,7 @@ Estados: `Pendiente` · `En diseño` · `Aprobado` · `En progreso` · `Hecho`
 
 | # | Historia / Tarea | Estado |
 |---|---|---|
-| 9 | Diseño técnico aprobado (arquitectura, autenticación, persistencia) | Pendiente |
+| 9 | Diseño técnico detallado del MVP (esquema de base de datos, proveedores concretos, autorización) — sucesor de `ADR-0001` | Pendiente |
 | 10 | Implementación incremental del primer módulo educativo, con pruebas automatizadas | Pendiente |
 | 11 | Observabilidad y seguridad básicas desde el primer despliegue | Pendiente |
 | US-03 | Practicar el ciclo completo de ingeniería en un proyecto (Marco) — ver `USER_STORIES.md` | En diseño |
@@ -77,4 +83,4 @@ Estados: `Pendiente` · `En diseño` · `Aprobado` · `En progreso` · `Hecho`
 
 **Nota sobre las historias US-01 a US-07:** provienen de `USER_STORIES.md` (Sprint 0.2, diseño de producto) y se listan aquí como `En diseño` para trazabilidad. Ninguna pasa a `Aprobado` sin diseño técnico revisado, y ninguna se implementa en código sin ese diseño aprobado, conforme a `CLAUDE.md`.
 
-Este backlog se mantiene sincronizado con `ROADMAP.md`, `USER_STORIES.md` y `CHANGELOG.md` en cada cambio, conforme a las reglas del proyecto.
+Este backlog se mantiene sincronizado con `ROADMAP.md`, `USER_STORIES.md`, `docs/adr/` y `CHANGELOG.md` en cada cambio, conforme a las reglas del proyecto.
