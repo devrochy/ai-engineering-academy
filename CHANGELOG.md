@@ -8,6 +8,16 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ### Añadido
 
+- **Arquitectura del sistema (Aprobada), 9 documentos con diagramas Mermaid (14 en total)** *(Sprint 0.6)*:
+  - `ARCHITECTURE.md`: vista de contexto y de contenedores, principios arquitectónicos, límites explícitos del MVP.
+  - `TECH_STACK.md`: selección concreta de tecnologías (Next.js/TypeScript, Prisma, Zod, Tailwind, Vitest, Playwright) dentro de los límites de `ADR-0001`, con justificación de cada dependencia nueva.
+  - `DATABASE.md`: modelo entidad-relación detallado (Student, Level, Project, Enrollment, Evidence) y diagrama de estados de `Enrollment`.
+  - `API.md`: inventario de endpoints REST del MVP, convenciones, formatos de petición/respuesta y manejo de errores.
+  - `BACKEND.md`: arquitectura en capas (routes → middleware → validación → servicios → datos), servicios de dominio previstos.
+  - `FRONTEND.md`: mapa de rutas, composición de componentes, estrategia de manejo de estado (sin librería global en el MVP), requisitos de accesibilidad.
+  - `SECURITY.md`: modelo de amenazas simplificado, flujo de autenticación OAuth, autorización, gestión de secretos, observabilidad de seguridad.
+  - `MCP.md`: distingue el rol vigente de MCP como contenido educativo del rol futuro (no decidido) como componente técnico de la plataforma.
+  - `AI_ARCHITECTURE.md`: distingue el rol vigente de la IA como materia de enseñanza del rol futuro (no decidido) como componente del producto; el runtime del MVP no realiza llamadas a modelos de lenguaje.
 - `ROADMAP_DEVELOPMENT.md`: roadmap de desarrollo dividido en sprints (1.1–1.4 para la Fase 1 de diseño educativo; 2.1–2.4 para la Fase 2 de MVP), con criterios de salida por sprint y bloqueo explícito de Tasks de código hasta diseño técnico aprobado. *(Sprint 0.5)*
 - `docs/adr/0001-arquitectura-inicial-de-la-plataforma.md`: **ADR-0001 (Aceptado)** — stack full-stack en Next.js (TypeScript), PostgreSQL gestionado, autenticación delegada (OAuth) y hosting gestionado; incluye modelo de datos educativo de alto nivel (Estudiante, Nivel, Proyecto, Inscripción/Progreso, Evidencia). *(Sprint 0.4)*
 - `.github/workflows/ci.yml`: pipeline de CI en GitHub Actions (lint de Markdown y verificación de documentación obligatoria) en cada PR/push a `main` o `develop`. *(Sprint 0.3)*
@@ -45,3 +55,7 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 - `BACKLOG.md`: reestructurado por completo a jerarquía **Epic → Feature → Story → Task → Subtask** (EPIC-00 a EPIC-05), reemplazando el listado plano por fases. Todas las historias US-01 a US-07 y los ítems de trabajo previos quedan mapeados a Features/Tasks concretas; se añaden las Stories US-08, US-09 y US-10 para el MVP técnico (EPIC-05).
 - `README.md`: ampliada la tabla de documentación con enlaces a `PRODUCT.md`, `PERSONAS.md`, `USER_STORIES.md`, `BACKLOG.md`, `ROADMAP_DEVELOPMENT.md` y `GLOSSARY.md`.
+
+### Cambiado (Sprint 0.6)
+
+- `BACKLOG.md`: añadida `FEAT-00.5 — Arquitectura detallada del sistema` (Hecho) en EPIC-00. `TASK-05.1.1` y `TASK-05.3.1` pasan de `Pendiente` a `En progreso`: sus Subtasks de diseño quedan resueltas por los nuevos documentos de arquitectura; la selección de proveedor concreto de hosting/PostgreSQL sigue explícitamente pendiente, según lo diferido en `TECH_STACK.md`.
