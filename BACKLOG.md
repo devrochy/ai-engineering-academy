@@ -34,6 +34,7 @@ Trabajo fundacional ya completado: documentación base, diseño de producto, flu
 | FEAT-00.2 — Diseño de producto | `PRODUCT.md`, `PERSONAS.md`, `USER_STORIES.md`, `GLOSSARY.md` | Hecho |
 | FEAT-00.3 — Flujo Git y CI/CD | Convenciones Gitflow en `CLAUDE.md`, `.github/workflows/ci.yml`, plantillas de PR/ADR, repositorio remoto | Hecho |
 | FEAT-00.4 — Arquitectura inicial | `ADR-0001: Arquitectura inicial de la plataforma` (Aceptado) | Hecho |
+| FEAT-00.5 — Arquitectura detallada del sistema | `ARCHITECTURE.md`, `TECH_STACK.md`, `DATABASE.md`, `API.md`, `BACKEND.md`, `FRONTEND.md`, `SECURITY.md`, `MCP.md`, `AI_ARCHITECTURE.md` (Propuesto → Aprobado), con diagramas Mermaid | Hecho |
 
 ---
 
@@ -137,11 +138,11 @@ Trabajo fundacional ya completado: documentación base, diseño de producto, flu
 
 **Story:** **US-08** (nueva) — *Como estudiante, quiero crear una cuenta y autenticarme de forma segura, para acceder a mi progreso personal.* · Estado: `Pendiente`
 
-- **TASK-05.1.1** — Diseño técnico detallado del MVP (sucesor de `ADR-0001`, `BACKLOG.md` #9) · `Pendiente`
-  - [ ] Definir el esquema de tablas a partir del modelo de datos de `ADR-0001` (Estudiante, Nivel, Proyecto, Inscripción/Progreso, Evidencia).
-  - [ ] Seleccionar el proveedor concreto de hosting y de PostgreSQL gestionado.
-  - [ ] Definir el modelo de autorización (roles: estudiante; evaluar necesidad de rol de administrador de contenido).
-  - [ ] Someter el diseño a aprobación antes de habilitar cualquier Task de implementación.
+- **TASK-05.1.1** — Diseño técnico detallado del MVP (sucesor de `ADR-0001`, `BACKLOG.md` #9) · `En progreso`
+  - [x] Definir el esquema de tablas a partir del modelo de datos de `ADR-0001` (Estudiante, Nivel, Proyecto, Inscripción/Progreso, Evidencia) — ver `DATABASE.md`.
+  - [ ] Seleccionar el proveedor concreto de hosting y de PostgreSQL gestionado — explícitamente diferido a la Task de despliegue en `TECH_STACK.md`.
+  - [x] Definir el modelo de autorización (roles: estudiante; evaluar necesidad de rol de administrador de contenido) — ver `SECURITY.md` §Autorización (rol único "estudiante autenticado" en el MVP).
+  - [ ] Someter el diseño a aprobación antes de habilitar cualquier Task de implementación — aprobado el conjunto `ARCHITECTURE.md`/`TECH_STACK.md`/`DATABASE.md`/`API.md`/`BACKEND.md`/`FRONTEND.md`/`SECURITY.md`; queda pendiente la selección de proveedor antes de cerrar esta Task.
 - **TASK-05.1.2** — Implementación de autenticación y persistencia *(bloqueada hasta que TASK-05.1.1 esté Aprobada)* · `Pendiente`
   - [ ] Implementar registro/login delegado vía OAuth (según `ADR-0001`).
   - [ ] Implementar el esquema de base de datos aprobado.
@@ -160,9 +161,9 @@ Trabajo fundacional ya completado: documentación base, diseño de producto, flu
 
 **Story:** **US-10** (nueva) — *Como Tech Lead, quiero observabilidad y seguridad básicas desde el primer despliegue, para detectar y responder a incidentes tempranamente.* · Estado: `Pendiente`
 
-- **TASK-05.3.1** — Definir logging y métricas mínimas del despliegue (sucesor de `BACKLOG.md` #11) · `Pendiente`
-  - [ ] Definir qué eventos se registran (autenticación, errores, cambios de progreso).
-  - [ ] Definir alertas básicas de disponibilidad sobre la plataforma de hosting elegida.
+- **TASK-05.3.1** — Definir logging y métricas mínimas del despliegue (sucesor de `BACKLOG.md` #11) · `En progreso`
+  - [x] Definir qué eventos se registran (autenticación, errores, cambios de progreso) — ver `SECURITY.md` §Observabilidad de seguridad.
+  - [ ] Definir alertas básicas de disponibilidad sobre la plataforma de hosting elegida — bloqueado hasta seleccionar proveedor concreto (`TECH_STACK.md`).
 
 ---
 
@@ -172,4 +173,4 @@ Conforme al principio de `CLAUDE.md` de completar la iteración actual antes de 
 
 ---
 
-Este backlog se mantiene sincronizado con `ROADMAP.md`, `ROADMAP_DEVELOPMENT.md`, `USER_STORIES.md`, `docs/adr/` y `CHANGELOG.md` en cada cambio, conforme a las reglas del proyecto.
+Este backlog se mantiene sincronizado con `ROADMAP.md`, `ROADMAP_DEVELOPMENT.md`, `USER_STORIES.md`, `docs/adr/`, los documentos de arquitectura (`ARCHITECTURE.md`, `TECH_STACK.md`, `DATABASE.md`, `API.md`, `BACKEND.md`, `FRONTEND.md`, `SECURITY.md`, `MCP.md`, `AI_ARCHITECTURE.md`) y `CHANGELOG.md` en cada cambio, conforme a las reglas del proyecto.
