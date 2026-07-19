@@ -6,6 +6,8 @@ Plataforma para formar AI Engineers Senior mediante un roadmap práctico basado 
 
 AI Engineering Academy no es un curso de slides: es un camino de aprendizaje donde cada concepto se valida construyendo software real — con historias de usuario, diseño revisado, pruebas automatizadas y documentación viva, tal como se trabajaría en un equipo de ingeniería serio.
 
+📖 **¿Nuevo en el proyecto?** Empieza por [PROJECT_BIBLE.md](./PROJECT_BIBLE.md) — la fuente única de verdad (Single Source of Truth) que consolida toda la estrategia, el producto y la arquitectura en un solo documento.
+
 Consulta [VISION.md](./VISION.md) para la misión, el público objetivo y la propuesta de valor completa.
 
 ## Público objetivo
@@ -35,6 +37,7 @@ Este repositorio sigue un conjunto de reglas de ingeniería explícitas (ver [CL
 
 | Documento | Propósito |
 |---|---|
+| [PROJECT_BIBLE.md](./PROJECT_BIBLE.md) | **Single Source of Truth** — estrategia, producto y arquitectura consolidados |
 | [VISION.md](./VISION.md) | Misión, visión, público objetivo y propuesta de valor |
 | [PRODUCT.md](./PRODUCT.md) | Definición de producto: problema, alcance funcional, métricas |
 | [PERSONAS.md](./PERSONAS.md) | Perfiles de usuario objetivo |

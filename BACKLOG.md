@@ -35,6 +35,7 @@ Trabajo fundacional ya completado: documentación base, diseño de producto, flu
 | FEAT-00.3 — Flujo Git y CI/CD | Convenciones Gitflow en `CLAUDE.md`, `.github/workflows/ci.yml`, plantillas de PR/ADR, repositorio remoto | Hecho |
 | FEAT-00.4 — Arquitectura inicial | `ADR-0001: Arquitectura inicial de la plataforma` (Aceptado) | Hecho |
 | FEAT-00.5 — Arquitectura detallada del sistema | `ARCHITECTURE.md`, `TECH_STACK.md`, `DATABASE.md`, `API.md`, `BACKEND.md`, `FRONTEND.md`, `SECURITY.md`, `MCP.md`, `AI_ARCHITECTURE.md` (Propuesto → Aprobado), con diagramas Mermaid | Hecho |
+| FEAT-00.6 — Project Bible (SSOT) | `PROJECT_BIBLE.md`: documento único de 38 capítulos que consolida estrategia, producto y arquitectura de todos los documentos anteriores (Propuesto → Aprobado) | Hecho |
 
 ---
 
@@ -173,4 +174,4 @@ Conforme al principio de `CLAUDE.md` de completar la iteración actual antes de 
 
 ---
 
-Este backlog se mantiene sincronizado con `ROADMAP.md`, `ROADMAP_DEVELOPMENT.md`, `USER_STORIES.md`, `docs/adr/`, los documentos de arquitectura (`ARCHITECTURE.md`, `TECH_STACK.md`, `DATABASE.md`, `API.md`, `BACKEND.md`, `FRONTEND.md`, `SECURITY.md`, `MCP.md`, `AI_ARCHITECTURE.md`) y `CHANGELOG.md` en cada cambio, conforme a las reglas del proyecto.
+Este backlog se mantiene sincronizado con `ROADMAP.md`, `ROADMAP_DEVELOPMENT.md`, `USER_STORIES.md`, `docs/adr/`, los documentos de arquitectura (`ARCHITECTURE.md`, `TECH_STACK.md`, `DATABASE.md`, `API.md`, `BACKEND.md`, `FRONTEND.md`, `SECURITY.md`, `MCP.md`, `AI_ARCHITECTURE.md`), `PROJECT_BIBLE.md` y `CHANGELOG.md` en cada cambio, conforme a las reglas del proyecto.
