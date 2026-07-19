@@ -27,3 +27,10 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 - `BACKLOG.md`: incorporadas las historias US-01 a US-07 (estado `En diseño`) distribuidas en las fases 0, 2 y 3, y añadida la sección "Sprint 0.2 — Diseño de producto" en la Fase 0. *(Sprint 0.2)*
 - `BACKLOG.md`: añadida la sección "Sprint 0.3 — Flujo de trabajo Git y CI/CD" en la Fase 0. *(Sprint 0.3)*
 - `CLAUDE.md`: añadidas las convenciones de Gitflow (ramas `main`/`develop`, `feature/`, `fix/`, `docs/`, `chore/`, `release/`, `hotfix/`, Conventional Commits, PR obligatorio con CI en verde). *(Sprint 0.3)*
+- `BACKLOG.md`: marcado como `Hecho` el ítem 25 (repositorio remoto en GitHub y ramas `main`/`develop` publicadas). *(Sprint 0.3)*
+
+### Infraestructura de repositorio
+
+- Creado el repositorio remoto público [`devrochy/ai-engineering-academy`](https://github.com/devrochy/ai-engineering-academy) en GitHub. *(Sprint 0.3)*
+- Publicadas las ramas `main` y `develop`; `main` configurada como rama por defecto. *(Sprint 0.3)*
+- Aplicada protección de rama en `main`: requiere que los checks de CI (`Lint Markdown`, `Verificar documentación obligatoria`) pasen antes de mergear, y prohíbe force-push y borrado directo. *(Sprint 0.3)*
