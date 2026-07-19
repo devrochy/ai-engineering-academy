@@ -36,7 +36,13 @@ Este repositorio sigue un conjunto de reglas de ingeniería explícitas (ver [CL
 | Documento | Propósito |
 |---|---|
 | [VISION.md](./VISION.md) | Misión, visión, público objetivo y propuesta de valor |
+| [PRODUCT.md](./PRODUCT.md) | Definición de producto: problema, alcance funcional, métricas |
+| [PERSONAS.md](./PERSONAS.md) | Perfiles de usuario objetivo |
+| [USER_STORIES.md](./USER_STORIES.md) | Historias de usuario con criterios de aceptación |
+| [BACKLOG.md](./BACKLOG.md) | Product Backlog (Epics → Features → Stories → Tasks → Subtasks) |
 | [ROADMAP.md](./ROADMAP.md) | Plan de alto nivel por fases |
+| [ROADMAP_DEVELOPMENT.md](./ROADMAP_DEVELOPMENT.md) | Roadmap de desarrollo dividido en sprints |
+| [GLOSSARY.md](./GLOSSARY.md) | Glosario de términos del proyecto |
 | [CLAUDE.md](./CLAUDE.md) | Reglas de trabajo e instrucciones del proyecto |
 
 ## Contribuir
