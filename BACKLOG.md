@@ -30,7 +30,7 @@ Estados: `Pendiente` · `En diseño` · `Aprobado` · `En progreso` · `Hecho`
 | 22 | Documentar convenciones de Gitflow (ramas, commits, PRs) en `CLAUDE.md` | Hecho |
 | 23 | Configurar pipeline de CI en GitHub Actions (lint de Markdown y verificación de documentación obligatoria) | Hecho |
 | 24 | Crear plantilla de Pull Request y plantilla de ADR | Hecho |
-| 25 | Inicializar repositorio remoto en GitHub y ramas `main`/`develop` | Pendiente |
+| 25 | Inicializar repositorio remoto en GitHub y ramas `main`/`develop` | Hecho |
 
 ## Fase 1 — Diseño del roadmap educativo
 

@@ -13,11 +13,13 @@ Estas personas se derivan del público objetivo definido en [VISION.md](./VISION
 **Contexto de uso:** Dedica unas horas por semana fuera de su trabajo actual. Aprende mejor construyendo que leyendo teoría.
 
 **Frustraciones actuales:**
+
 - Los tutoriales de IA que ha probado son notebooks desechables sin pruebas ni estructura de proyecto real.
 - No sabe cómo "aterrizar" conceptos de LLMs/agentes en un sistema que pudiera llevar a producción en su trabajo.
 - Le cuesta encontrar contenido en español con rigor técnico, no solo divulgativo.
 
 **Qué necesita del producto:**
+
 - Proyectos que se parezcan a su trabajo real: con historia de usuario, diseño y pruebas.
 - Contenido específico y confiable sobre Claude Code y MCP.
 - Evidencia de progreso que pueda mostrar (portafolio), no solo certificados.
@@ -36,11 +38,13 @@ Estas personas se derivan del público objetivo definido en [VISION.md](./VISION
 **Contexto de uso:** Trabaja en un equipo donde se espera que sus prototipos lleguen a producción, pero carece de formación formal en ingeniería de software (testing, arquitectura, control de versiones disciplinado).
 
 **Frustraciones actuales:**
+
 - Sus modelos "funcionan en el notebook" pero fallan al integrarse en sistemas reales.
 - No tiene un marco de referencia claro para diseñar antes de codificar.
 - La documentación de MCP y agentes le resulta dispersa; no sabe qué fuentes son confiables.
 
 **Qué necesita del producto:**
+
 - Proyectos que integren su conocimiento de modelos con prácticas de ingeniería (ADRs, pruebas automatizadas, changelog).
 - Contenido sobre MCP y agentes trazable a documentación oficial de Anthropic.
 - Un camino incremental, no un salto directo a arquitectura compleja.
@@ -59,11 +63,13 @@ Estas personas se derivan del público objetivo definido en [VISION.md](./VISION
 **Contexto de uso:** Dispone de tiempo considerable (búsqueda de empleo activa), pero poca experiencia previa en procesos de ingeniería formales (historias de usuario, ADRs, testing disciplinado).
 
 **Frustraciones actuales:**
+
 - Los bootcamps le dieron bases de desarrollo, pero no un proceso de ingeniería estructurado.
 - No sabe cómo demostrar en una entrevista que entiende "cómo se construye" un sistema de IA, más allá de haber usado una API.
 - Le preocupa que su portafolio actual sea "más de lo mismo" que ven otros reclutadores.
 
 **Qué necesita del producto:**
+
 - Un camino claro y estructurado desde fundamentos hasta proyectos de nivel producción.
 - Proyectos reales, verificables, que pueda mostrar como evidencia de portafolio.
 - Aprender el vocabulario y las prácticas (ADR, historia de usuario, changelog) que se esperan en un equipo de ingeniería real.

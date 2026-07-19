@@ -13,6 +13,7 @@ Realizar cambios pequeños e incrementales, completando un sprint antes de inici
 Mantener el código, la documentación y el backlog sincronizados en todo momento.
 
 Convenciones de Git (Gitflow simplificado):
+
 - `main`: rama estable, siempre desplegable. No se commitea directamente sobre ella.
 - `develop`: rama de integración de trabajo en curso, base de las ramas de feature.
 - Ramas de trabajo, creadas desde `develop`:

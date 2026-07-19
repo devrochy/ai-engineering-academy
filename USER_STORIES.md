@@ -17,6 +17,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** saber en qué orden abordar los proyectos y entender qué voy a aprender en cada etapa.
 
 **Criterios de aceptación:**
+
 - Existe una vista o documento que lista los niveles con su objetivo de aprendizaje.
 - Cada nivel indica qué proyectos prácticos lo componen.
 - Se indica claramente el prerrequisito de cada nivel respecto al anterior.
@@ -30,6 +31,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** decidir si es el proyecto adecuado para mi nivel actual y saber qué voy a poder mostrar al terminarlo.
 
 **Criterios de aceptación:**
+
 - Cada proyecto tiene una descripción con: objetivo, nivel, prerrequisitos y resultado esperado (qué se habrá construido).
 - Se indica explícitamente qué conceptos de Claude Code o MCP se practican en ese proyecto.
 
@@ -44,6 +46,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** aprender a construir sistemas de IA con el mismo rigor que un equipo de ingeniería de software real.
 
 **Criterios de aceptación:**
+
 - Cada proyecto incluye una plantilla o guía de historia de usuario antes de la parte de implementación.
 - Cada proyecto especifica qué pruebas automatizadas se esperan como criterio de "hecho".
 - El material del proyecto referencia explícitamente el proceso descrito en `CLAUDE.md` (historia → diseño → implementación → pruebas → documentación).
@@ -57,6 +60,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** practicar cómo se justifican y comunican decisiones técnicas en un entorno profesional.
 
 **Criterios de aceptación:**
+
 - Existe una plantilla de ADR accesible desde el material del proyecto.
 - Al menos un proyecto del nivel "producción" exige explícitamente redactar un ADR como parte de la entrega.
 
@@ -71,6 +75,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** confiar en que lo que aprendo sigue vigente y es correcto, sin depender de interpretaciones no verificadas.
 
 **Criterios de aceptación:**
+
 - Todo contenido educativo sobre Claude o MCP incluye referencia a la fuente oficial de Anthropic en la que se basa.
 - Existe un proceso (aunque sea manual) para revisar y actualizar contenido cuando la documentación oficial cambie.
 
@@ -85,6 +90,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** usarla como material de portafolio en procesos de selección.
 
 **Criterios de aceptación:**
+
 - Al completar un proyecto, existe un resumen consultable con: objetivo, decisiones de diseño clave y evidencia de pruebas.
 - El formato de evidencia es lo suficientemente autocontenido para compartirse fuera de la plataforma (por ejemplo, como documento o enlace).
 
@@ -97,6 +103,7 @@ Formato: `Como [persona], quiero [objetivo], para [beneficio]`, con criterios de
 **para** mantener motivación y planificar mi tiempo de estudio semanal.
 
 **Criterios de aceptación:**
+
 - Existe una vista de progreso por nivel y por proyecto.
 - El estado de cada proyecto refleja si está: no iniciado, en progreso o completado.
 
