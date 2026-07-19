@@ -8,6 +8,7 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ### Añadido
 
+- `PROJECT_BIBLE.md`: **Single Source of Truth del proyecto (Aprobado)**, 38 capítulos que consolidan y resumen —sin duplicar— la estrategia, el producto y la arquitectura ya definidos en `CLAUDE.md`, `README.md`, `VISION.md`, `PRODUCT.md`, `PERSONAS.md`, `USER_STORIES.md`, `GLOSSARY.md`, `ROADMAP.md`, `ROADMAP_DEVELOPMENT.md`, `BACKLOG.md`, `ADR-0001` y los 9 documentos de arquitectura. Incluye diagrama de contexto Mermaid, Definition of Done, reglas para crear/modificar funcionalidades y próximos pasos concretos. *(Sprint 0.7)*
 - **Arquitectura del sistema (Aprobada), 9 documentos con diagramas Mermaid (14 en total)** *(Sprint 0.6)*:
   - `ARCHITECTURE.md`: vista de contexto y de contenedores, principios arquitectónicos, límites explícitos del MVP.
   - `TECH_STACK.md`: selección concreta de tecnologías (Next.js/TypeScript, Prisma, Zod, Tailwind, Vitest, Playwright) dentro de los límites de `ADR-0001`, con justificación de cada dependencia nueva.
@@ -59,3 +60,8 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 ### Cambiado (Sprint 0.6)
 
 - `BACKLOG.md`: añadida `FEAT-00.5 — Arquitectura detallada del sistema` (Hecho) en EPIC-00. `TASK-05.1.1` y `TASK-05.3.1` pasan de `Pendiente` a `En progreso`: sus Subtasks de diseño quedan resueltas por los nuevos documentos de arquitectura; la selección de proveedor concreto de hosting/PostgreSQL sigue explícitamente pendiente, según lo diferido en `TECH_STACK.md`.
+
+### Cambiado (Sprint 0.7)
+
+- `BACKLOG.md`: añadida `FEAT-00.6 — Project Bible (SSOT)` (Hecho) en EPIC-00.
+- `README.md`: añadido enlace destacado a `PROJECT_BIBLE.md` como punto de entrada recomendado para cualquier persona nueva en el proyecto.
