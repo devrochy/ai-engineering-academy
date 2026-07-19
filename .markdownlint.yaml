@@ -7,3 +7,4 @@ MD013: false # longitud de línea
 MD024: false # encabezados duplicados (frecuentes en historias de usuario)
 MD033: false # HTML en línea
 MD041: false # el primer encabezado no siempre es H1 en todos los documentos
+MD060: false # estilo de separador de tablas (compact vs. padded)
