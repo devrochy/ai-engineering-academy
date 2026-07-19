@@ -8,6 +8,7 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 
 ### Añadido
 
+- `ROADMAP_DEVELOPMENT.md`: roadmap de desarrollo dividido en sprints (1.1–1.4 para la Fase 1 de diseño educativo; 2.1–2.4 para la Fase 2 de MVP), con criterios de salida por sprint y bloqueo explícito de Tasks de código hasta diseño técnico aprobado. *(Sprint 0.5)*
 - `docs/adr/0001-arquitectura-inicial-de-la-plataforma.md`: **ADR-0001 (Aceptado)** — stack full-stack en Next.js (TypeScript), PostgreSQL gestionado, autenticación delegada (OAuth) y hosting gestionado; incluye modelo de datos educativo de alto nivel (Estudiante, Nivel, Proyecto, Inscripción/Progreso, Evidencia). *(Sprint 0.4)*
 - `.github/workflows/ci.yml`: pipeline de CI en GitHub Actions (lint de Markdown y verificación de documentación obligatoria) en cada PR/push a `main` o `develop`. *(Sprint 0.3)*
 - `.github/pull_request_template.md`: plantilla de Pull Request con checklist alineado a `CLAUDE.md`. *(Sprint 0.3)*
@@ -39,3 +40,8 @@ El formato sigue las convenciones de [Keep a Changelog](https://keepachangelog.c
 ### Cambiado (Sprint 0.4)
 
 - `BACKLOG.md`: ítem 5 marcado como `Hecho`; ítem 9 redefinido como sucesor de `ADR-0001` (diseño técnico detallado del MVP); añadida la sección "Sprint 0.4 — Arquitectura inicial".
+
+### Cambiado (Sprint 0.5)
+
+- `BACKLOG.md`: reestructurado por completo a jerarquía **Epic → Feature → Story → Task → Subtask** (EPIC-00 a EPIC-05), reemplazando el listado plano por fases. Todas las historias US-01 a US-07 y los ítems de trabajo previos quedan mapeados a Features/Tasks concretas; se añaden las Stories US-08, US-09 y US-10 para el MVP técnico (EPIC-05).
+- `README.md`: ampliada la tabla de documentación con enlaces a `PRODUCT.md`, `PERSONAS.md`, `USER_STORIES.md`, `BACKLOG.md`, `ROADMAP_DEVELOPMENT.md` y `GLOSSARY.md`.
